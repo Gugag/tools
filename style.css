@@ -6,7 +6,7 @@ body {
 nav{
 	position: relative;
 	margin: 270px auto 0;
-	width: 500px;
+	width: 470px;
 	height: 50px;
 	background: #34495e;
 	border-radius: 8px;
@@ -15,7 +15,6 @@ nav{
 }
 nav a{
 	font-size: 12px;
-	text-transform: uppercase;
 	color: white;
 	text-decoration: none;
 	line-height: 50px;
