@@ -6,7 +6,7 @@ body {
 nav{
 	position: relative;
 	margin: 270px auto 0;
-	width: 440px;
+	width: 432px;
 	height: 50px;
 	background: #34495e;
 	border-radius: 8px;
@@ -60,6 +60,6 @@ nav a:nth-child(4){
 }
 nav a:nth-child(4):hover~.animation{
 	width: 130px;
-	left: 310px;
+	left: 305px;
 }
 
