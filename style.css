@@ -5,8 +5,8 @@ body {
 }
 nav{
 	position: relative;
-	margin: 270px auto 0;
-	width: 510px;
+	margin: 250px auto 0;
+	width: 610px;
 	height: 50px;
 	background: #34495e;
 	border-radius: 8px;
@@ -68,4 +68,12 @@ nav a:nth-child(5){
 nav a:nth-child(5):hover~.animation{
 	width: 100px;
 	left: 409px;
+}
+
+nav a:nth-child(6){
+	width: 100px;
+}
+nav a:nth-child(6):hover~.animation{
+	width: 100px;
+	left: 509px;
 }
