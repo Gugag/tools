@@ -65,15 +65,18 @@ nav a:nth-child(6):hover ~ .animation { width: 100px; left: 509px; }
 	nav {
 		flex-direction: row;
 		height: auto;
+		text-wrap: nowrap;
 	}
 	nav a {
 		width: 75%;
 		line-height: 30px;
 		text-align: center;
+		text-wrap: nowrap;
 	}
 	nav .animation {
 		width: 75%;
 		height: 30px;
 		text-align: center;
+		text-wrap: nowrap;
 	}
 }
