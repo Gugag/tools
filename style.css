@@ -67,13 +67,13 @@ nav a:nth-child(6):hover ~ .animation { width: 100px; left: 509px; }
 		height: auto;
 	}
 	nav a {
-		width: 100%;
-		line-height: 40px;
+		width: 75%;
+		line-height: 30px;
 		text-align: center;
 	}
 	nav .animation {
-		width: 100%;
-		height: 40px;
+		width: 75%;
+		height: 30px;
 		text-align: center;
 	}
 }
