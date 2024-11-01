@@ -63,7 +63,7 @@ nav a:nth-child(6):hover ~ .animation { width: 100px; left: 509px; }
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
 	nav {
-		flex-direction: column;
+		flex-direction: row;
 		height: auto;
 	}
 	nav a {
