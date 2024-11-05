@@ -75,3 +75,5 @@ nav a:nth-child(6){
 }
 nav a:nth-child(6):hover~.animation{
 	width: 100px;
+	left: 509px;
+}
