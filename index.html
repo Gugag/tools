@@ -1,42 +1,72 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Some IT Tools"> 
-    <meta property="og:description" content="Some Free IT Tool, use Without Registration" > 
-    <meta property="og:image" content="https://i.ibb.co/zHN26wR/resized-image-4.png"> 
-    <meta property="og:url"content="https://itdata.ge"> 
-    <title>ITdata.ge</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234552946070834"
-     crossorigin="anonymous"></script>
-    <meta name="google-adsense-account" content="ca-pub-1234552946070834">
-  </head>
-  <body>
-    <nav>
-      <a href="https://qr.itdata.ge">QR Generator</a>
-      <a href="https://convert.itdata.ge">Unit Converter</a>
-      <a href="https://resize.itdata.ge">Imege Resizer</a>
-      <a href="https://subnet.itdata.ge">Subnet Info</a>
-      <a href="https://text.itdata.ge">Speach to Text</a>
-      <a href="https://password.itdata.ge">Password</a>
-      <div class="animation start-home"></div>
-    </nav>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Slider HTML and CSS | CodingNepal</title>
+  <!-- Linking SwiperJS CSS -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"> -->
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container swiper">
+    <div class="slider-wrapper">
+      <div class="card-list swiper-wrapper">
+        <div class="card-item swiper-slide">
+          <img src="images/img-1.jpg" alt="User Image" class="user-image">
+          <h2 class="user-name">QR Code Generator</h2>
+          <p class="user-profession">Without Registration</p>
+          <button class="message-button" onclick="openQR()" >Open</button>
+        </div>
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234552946070834"
-     crossorigin="anonymous"></script>
-<!-- itdata -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-1234552946070834"
-     data-ad-slot="3273843323"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+        <div class="card-item swiper-slide">
+          <img src="images/img-2.jpg" alt="User Image" class="user-image">
+          <h2 class="user-name">Unit Converter</h2>
+          <p class="user-profession">Graphic Designer</p>
+          <button class="message-button" onclick="openUnit()">Open</button>
+        </div>
 
-  </body>
+        <div class="card-item swiper-slide">
+          <img src="images/img-3.jpg" alt="User Image" class="user-image">
+          <h2 class="user-name">Resize Your Image</h2>
+          <p class="user-profession">Project Manager</p>
+          <button class="message-button" onclick="openResize()">Open</button>
+        </div>
+
+        <div class="card-item swiper-slide">
+          <img src="images/img-4.jpg" alt="User Image" class="user-image">
+          <h2 class="user-name">Subnet Info</h2>
+          <p class="user-profession">Easy get Subnet Information</p>
+          <button class="message-button" onclick="openSubnet()">Open</button>
+        </div>
+
+        <div class="card-item swiper-slide">
+          <img src="images/img-5.jpg" alt="User Image" class="user-image">
+          <h2 class="user-name">Live Speach To Text</h2>
+          <p class="user-profession">Convert Speach To Text Easy</p>
+          <button class="message-button" onclick="openText()">Open</button>
+        </div>
+
+        <div class="card-item swiper-slide">
+          <img src="images/img-6.jpg" alt="User Image" class="user-image">
+          <h2 class="user-name">Passworg Generator</h2>
+          <p class="user-profession">Generate Strong Password Easy</p>
+          <button class="message-button" onclick="openPassword()">Open</button>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+      <div class="swiper-slide-button swiper-button-prev"></div>
+      <div class="swiper-slide-button swiper-button-next"></div>
+    </div>
+  </div>
+
+  <!-- Linking SwiperJS script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Linking custom script -->
+  <script src="script.js"></script>
+</body>
 </html>
