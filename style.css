@@ -100,4 +100,8 @@ body {
   .slider-wrapper .swiper-slide-button {
     display: none;
   }
+
+  .user-profession {
+    font-size: 10px;
+  }
 }
