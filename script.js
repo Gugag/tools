@@ -53,3 +53,7 @@ const swiper = new Swiper('.slider-wrapper', {
   function openPassword() {
     window.open('https://password.itdata.ge', '_blank'); // Opens in a new tab
 }
+
+function openNtp() {
+  window.open('https://time.itdata.ge', '_blank'); // Opens in a new tab
+}
