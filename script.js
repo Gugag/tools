@@ -62,4 +62,9 @@ function openDwn() {
   window.open('https://blog.itdata.ge', '_blank'); // Opens in a new tab
 }
 
+ function goHome() {
+            // Replace with the path to your home page
+  window.location.href = '/index.html';
+}
+
 
