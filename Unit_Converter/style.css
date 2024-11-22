@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #ffffff;
+}
+h1 {
+    text-align: center;
+}
+.converter {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+.converter label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.converter select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 2px 10px;
+    font-size: 10px;
+    width: 100%;
+    height: 30px;
+    margin-top: 2px;   
+} 
+
+.outputUnit .inputUnit .category {
+    border-radius: 5px;
+}
+
+.converter select:hover, select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
+
+.converter input:hover, select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
+
+.converter input {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.converter button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.converter button:hover {
+    background-color: #0056b3;
+}
+.converter:focus-within {
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+body:focus-within{
+    background-color: transparent;
+}
+.result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+
+.converter select {
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns%3D%22http%3A//www.w3.org/2000/svg%22 viewBox%3D%220 0 24 24%22 fill%3D%22none%22 stroke%3D%22%23000000%22 stroke-width%3D%222%22 stroke-linecap%3D%22round%22 stroke-linejoin%3D%22round%22%3E%3Cpolyline points%3D%226 9 12 15 18 9%22/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 18px;
+    background-color: #fff;
+    color: #0a0909;
+    cursor: pointer;
+}
+
+/* For narrow down arrow */
+
+.converter select::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    pointer-events: none; /* Ensure clicks go to the select, not the arrow */
+    color: #fff;
+    font-size: 12px;
+}
