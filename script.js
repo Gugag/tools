@@ -57,3 +57,9 @@ const swiper = new Swiper('.slider-wrapper', {
 function openNtp() {
   window.open('https://time.itdata.ge', '_blank'); // Opens in a new tab
 }
+
+function openDwn() {
+  window.open('https://blog.itdata.ge', '_blank'); // Opens in a new tab
+}
+
+
