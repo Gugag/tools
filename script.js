@@ -31,7 +31,7 @@ const swiper = new Swiper('.slider-wrapper', {
   });
 
   function openQR() {
-   window.open('/QR_Code/index.html', '_blank'); // Opens in a new tab
+   window.open('/QR_Code/index.html', '_self'); // Opens in the same window
 }
 
   function openUnit() {
