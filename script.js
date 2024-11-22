@@ -31,7 +31,7 @@ const swiper = new Swiper('.slider-wrapper', {
   });
 
   function openQR() {
-    window.open('https://qr.itdata.ge', '_blank'); // Opens in a new tab
+   window.open('/QR_Code/index.html', '_blank'); // Opens in a new tab
 }
 
   function openUnit() {
