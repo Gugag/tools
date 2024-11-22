@@ -63,7 +63,7 @@ function openDwn() {
 }
 
 function goHome() {
-  window.location.href = '/index.html';  // Replace with the path to your home page
+  window.location.href = '/index.html', '_self');  // Replace with the path to your home page
 }
 
 
