@@ -30,27 +30,27 @@ const swiper = new Swiper('.slider-wrapper', {
     }
   });
 
-  function openQR() {
+function openQR() {
    window.open('/QR_Code/index.html', '_self'); // Opens in the same window
 }
 
-  function openUnit() {
+function openUnit() {
     window.open('Unit_Converter/index.html', '_self'); // Opens in the same window
 }
 
-  function openResize() {
+function openResize() {
     window.open('https://resize.itdata.ge', '_blank'); // Opens in a new tab
 }
 
-  function openSubnet() {
+function openSubnet() {
     window.open('https://subnet.itdata.ge', '_blank'); // Opens in a new tab
 }
 
-  function openText() {
+function openText() {
     window.open('Text_Regnition/index.html', '_self'); // Opens in the same window
 }
 
-  function openPassword() {
+function openPassword() {
     window.open('https://password.itdata.ge', '_blank'); // Opens in a new tab
 }
 
@@ -62,9 +62,8 @@ function openDwn() {
   window.open('https://blog.itdata.ge', '_blank'); // Opens in a new tab
 }
 
- function goHome() {
-            // Replace with the path to your home page
-  window.location.href = '/index.html';
+function goHome() {
+  window.location.href = '/index.html';  // Replace with the path to your home page
 }
 
 
