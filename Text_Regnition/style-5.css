@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+.stopwatch {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+button {
+    padding: 10px 40px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#transcript {
+    font-size: 1.2em;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    min-height: 150px;
+    text-align: left;
+    white-space: pre-wrap; /* Preserve newlines */
+}
+#downloadBtn, #ttsBtn {
+    display: none; /* Hidden until Stop is pressed */
+}
+#google_translate_element select {
+    width: 150px;
+    height: 25px;
+    padding: 2px 20px;
+    font-size: 12px;
+    text-align: left;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    appearance: none;  /*Remove default select styling */
+}
+#google_translate_element {
+    margin-bottom: 10px;  
+    margin-top: 5px;
+}
+#translate{
+    font-size: 15px;
+    font-weight: bold;
+}
+#language-selection {
+    margin-bottom: 20px;
+}
+
+#language {
+    width: 130px;
+    height: 25px;
+    padding: 2px 20px;
+    font-size: 12px;
+    text-align: left;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    appearance: none;
+    
+}
+
+#lngtxt{
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+select {
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns%3D%22http%3A//www.w3.org/2000/svg%22 viewBox%3D%220 0 24 24%22 fill%3D%22none%22 stroke%3D%22%23000000%22 stroke-width%3D%222%22 stroke-linecap%3D%22round%22 stroke-linejoin%3D%22round%22%3E%3Cpolyline points%3D%226 9 12 15 18 9%22/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+    cursor: pointer;
+}
+
+/* For narrow down arrow */
+select::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    pointer-events: none; /* Ensure clicks go to the select, not the arrow */
+    color: #fff;
+    font-size: 12px;
+}
