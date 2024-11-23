@@ -47,7 +47,7 @@ function openSubnet() {
 }
 
 function openText() {
-    window.open('https://text.itdata.ge/', '_self'); // Opens in the same window
+    window.open('/Text_Regnition/index.html', '_self'); // Opens in the same window
 }
 
 function openPassword() {
