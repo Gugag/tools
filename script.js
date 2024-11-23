@@ -39,11 +39,11 @@ function openUnit() {
 }
 
 function openResize() {
-    window.open('https://resize.itdata.ge', '_blank'); // Opens in a new tab
+    window.open('https://resize.itdata.ge',  '_self'); // Opens in a new tab
 }
 
 function openSubnet() {
-    window.open('https://subnet.itdata.ge', '_blank'); // Opens in a new tab
+    window.open('https://subnet.itdata.ge',  '_self'); // Opens in a new tab
 }
 
 function openText() {
@@ -51,7 +51,7 @@ function openText() {
 }
 
 function openPassword() {
-    window.open('https://password.itdata.ge', '_blank'); // Opens in a new tab
+    window.open('https://password.itdata.ge', '_self'); // Opens in a new tab
 }
 
 function openNtp() {
@@ -59,7 +59,7 @@ function openNtp() {
 }
 
 function openDwn() {
-  window.open('https://blog.itdata.ge', '_blank'); // Opens in a new tab
+  window.open('https://blog.itdata.ge',  '_self'); // Opens in a new tab
 }
 
 function goHome() {
