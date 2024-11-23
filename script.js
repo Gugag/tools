@@ -31,11 +31,11 @@ const swiper = new Swiper('.slider-wrapper', {
   });
 
 function openQR() {
-   window.open('/QR_Code/index.html', '_self'); // Opens in the same window
+   window.open('https://qr.itdata.ge', '_self'); // Opens in the same window
 }
 
 function openUnit() {
-    window.open('Unit_Converter/index.html', '_self'); // Opens in the same window
+    window.open('https://convert.itdata.ge/', '_self'); // Opens in the same window
 }
 
 function openResize() {
@@ -47,7 +47,7 @@ function openSubnet() {
 }
 
 function openText() {
-    window.open('Text_Regnition/index.html', '_self'); // Opens in the same window
+    window.open('https://text.itdata.ge/', '_self'); // Opens in the same window
 }
 
 function openPassword() {
