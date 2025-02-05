@@ -54,8 +54,8 @@ function openPassword() {
     window.open('https://password.itdata.ge', '_self'); // Opens in a new tab
 }
 
-function openNtp() {
-  window.open('https://time.itdata.ge',  '_self'); // Opens in a new tab
+function openUrl() {
+  window.open('https://url.itdata.ge',  '_self'); // Opens in a new tab
 }
 
 function openDwn() {
