@@ -66,4 +66,8 @@ function goHome() {
   window.location.href = '/index.html';  // Replace with the path to your home page
 }
 
+function openWeather() {
+  window.open('https://weather.itdata.ge',  '_self'); // Opens in a new tab
+}
+
 
