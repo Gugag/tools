@@ -66,6 +66,10 @@ function goHome() {
   window.location.href = '/index.html';  // Replace with the path to your home page
 }
 
+function openCss() {
+  window.open('https://css.itdata.ge',  '_self'); // Opens in a new tab
+}
+
 function openWeather() {
   window.open('https://weather.itdata.ge',  '_self'); // Opens in a new tab
 }
