@@ -74,4 +74,8 @@ function openWeather() {
   window.open('https://weather.itdata.ge',  '_self'); // Opens in a new tab
 }
 
+function openJs() {
+  window.open('https://js.itdata.ge',  '_self'); // Opens in a new tab
+}
+
 
