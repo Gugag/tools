@@ -78,4 +78,8 @@ function openJs() {
   window.open('https://js.itdata.ge',  '_self'); // Opens in a new tab
 }
 
+function openHtml() {
+  window.open('https://html.itdata.ge',  '_self'); // Opens in a new tab
+}
+
 
